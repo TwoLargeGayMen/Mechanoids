@@ -271,6 +271,52 @@
                 <ThingDef>APM_Mech_Vassal</ThingDef>
               </descriptionHyperlinks>
             </RecipeDef>
+            <RecipeDef ParentName="MediumMechanoidRecipe">
+              <defName>APM_Mech_Haze</defName>
+              <label>gestate Haze</label>
+              <description>Gestate a Haze mechanoid.</description>
+              <researchPrerequisite>StandardMechtech</researchPrerequisite>
+              <ingredients Inherit="False">
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Steel</li>
+                    </thingDefs>
+                  </filter>
+                  <count>75</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>Plasteel</li>
+                    </thingDefs>
+                  </filter>
+                  <count>25</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>ComponentIndustrial</li>
+                    </thingDefs>
+                  </filter>
+                  <count>1</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>SubcoreRegular</li>
+                    </thingDefs>
+                  </filter>
+                  <count>1</count>
+                </li>
+              </ingredients>
+              <products>
+                <APM_Mech_Haze>1</APM_Mech_Haze>
+              </products>
+              <descriptionHyperlinks>
+                <ThingDef>APM_Mech_Haze</ThingDef>
+              </descriptionHyperlinks>
+            </RecipeDef>
 
           </value>
         </li>

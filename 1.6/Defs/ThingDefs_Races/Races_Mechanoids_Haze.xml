@@ -12,7 +12,7 @@
       <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
       <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">30</ControlTakingTime>
-      <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+      <ToxicEnvironmentResistance MayRequire="Ludeon.Rimworld.Biotech">1</ToxicEnvironmentResistance>
       <MechEnergyLossPerHP MayRequire="Ludeon.Rimworld.Biotech">0.15</MechEnergyLossPerHP>
       <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">8</WastepacksPerRecharge>
       <EMPResistance MayRequire="Ludeon.Rimworld.Biotech">0.35</EMPResistance>
